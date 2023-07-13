@@ -49,49 +49,40 @@ The application will integrate with suitable APIs that provide medical symptom d
 
 ```
 .
-├── client                              # Front end part of application
+├── client
 │   ├── package.json
 │   ├── package-lock.json
 │   ├── public
 │   │   ├── favicon.ico
 │   │   ├── index.html
-│   │   ├── logo192.png
-│   │   ├── logo512.png
-│   │   ├── manifest.json
-│   │   └── robots.txt
+|   |    ├── manifest.json
+│   │
+│   │
+│   │
 │   ├── README.md
 │   └── src
 │       ├── App.css
 │       ├── App.js
-│       ├── atoms                       # Reusable small components
+│       ├── atoms
 │       │   ├── Button.js
 │       │   ├── Dropdown.js
 │       │   ├── FlexTable.css
 │       │   ├── FlexTable.js
 │       │   ├── Icon.js
-│       │   ├── Input.js
-│       │   ├── Modal.css
-│       │   ├── Modal.js
-│       │   ├── Pagination.css
-│       │   ├── Pagination.js
-│       │   └── Spinner.js
+│       │   |
 │       ├── helpers
 │       │   ├── formatDate.js
 │       │   └── setAuthToken.js
 │       ├── img
 │       │   └── todo_cover.jpg
 │       ├── index.js
-│       ├── pages                       # Front end pages and components
+│       ├── pages
 │       │   ├── auth
 │       │   │   ├── Login.js
 │       │   │   └── Register.js
-│       │   ├── dashboard
-│       │   │   ├── Dashboard.js
-│       │   │   ├── PageSize.js
-│       │   │   ├── Search.js
-│       │   │   ├── Todo.js
-│       │   │   └── TodoList.js
-│       │   ├── Homepage.js
+|       |   ├── Homepage.js
+|       |
+│       │
 │       │
 
 ```
